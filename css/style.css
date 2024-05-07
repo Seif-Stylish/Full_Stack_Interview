@@ -1,0 +1,17 @@
+.calculator_form {
+    position: relative;
+    border-radius: 7px;
+    border: 2px solid #007bff;
+    z-index: 3;
+}
+
+.side_bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.side_bar .container h2 {
+    cursor: pointer;
+}
